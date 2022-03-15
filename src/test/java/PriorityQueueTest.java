@@ -12,7 +12,7 @@ public class PriorityQueueTest {
 
     static Stream<Arguments> streamProvider() {
         return Stream.of(
-                Arguments.of(new int[]{3, 44, 1, 32}, new int[]{1, 3, 32, 44}),
+                Arguments.of(new int[]{3, 44, 1, 32}, new int[]{2, 3, 32, 44}),
                 Arguments.of(new int[]{7, 24, 13, 39}, new int[]{7, 13, 24, 39}),
                 Arguments.of(new int[]{39, 441, 133, 342}, new int[]{39, 133, 342, 441}),
                 Arguments.of(new int[]{83, 14, 1445, 3232}, new int[]{14, 83, 1445, 3232}),
